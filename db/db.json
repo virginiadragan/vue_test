@@ -1,0 +1,8 @@
+{
+  "students": [
+    { "name": "Vasile", "media": 8.65},
+    { "name": "Daniel", "media": 10},
+    { "name": "Ion", "media": 9.58},
+    { "name": "Ana", "media": 8.36},
+  ]
+}
