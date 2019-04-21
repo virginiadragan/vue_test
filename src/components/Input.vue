@@ -10,13 +10,6 @@
           <v-flex xs12 sm6 md3>
             <v-text-field label="y" v-model="y"></v-text-field>
           </v-flex>
-         <v-flex xs12 sm6 d-flex>
-            <v-select
-              :items="items"
-              label="Standard"
-              :value="$store.state.selected"
-            ></v-select>
-          </v-flex>
         </v-layout>
       </v-container>
     </v-form>
@@ -29,8 +22,6 @@ export default {
       return{
         x: this.$store.state['x'],
         y: this.$store.state['y'],
-        selected: this.$store.state['selected'],
-        items:['adunare','inmultire','scadere','impartire']
       }
   },
   watch: {
